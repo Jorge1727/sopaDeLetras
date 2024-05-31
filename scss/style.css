@@ -1,0 +1,71 @@
+/****** screens ****/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.titulo {
+  background-color: rgb(229, 227, 67);
+  padding: 20px;
+  border-bottom: 10px solid black;
+}
+.titulo h1 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  font-size: 10px;
+}
+@media (min-width: 800px) {
+  main {
+    font-size: 15px;
+  }
+}
+main .palabrasBuscar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .palabrasBuscar p {
+  padding: 10px;
+  background-color: rgb(189, 255, 189);
+  border-radius: 5px;
+}
+main .juegoContenedor {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media (min-width: 800px) {
+  main .juegoContenedor {
+    flex-direction: row;
+  }
+}
+main .juegoContenedor #tablero td {
+  cursor: pointer;
+  text-align: center;
+}
+main .juegoContenedor .botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+@media (min-width: 800px) {
+  main .juegoContenedor .botones {
+    flex-direction: column;
+  }
+}
+main .juegoContenedor .botones button {
+  margin: 5px 10px;
+}/*# sourceMappingURL=style.css.map */

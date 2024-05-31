@@ -1,0 +1,104 @@
+{
+    "palabras": [
+        {
+            "id": "1",
+            "value": "MIEDO"
+        },
+        {
+            "id": "2", 
+            "value": "ACTOR"
+        },
+        {
+            "id": "3",
+            "value": "GAFAS"
+        },
+        {
+            "id": "4",
+            "value": "MARCA"
+        },
+        {
+            "id": "5",
+            "value": "NATACION"
+        },
+        {
+            "id": "6",
+            "value": "TELEVISION"
+        },
+        {
+            "id": "7",
+            "value": "ARMARIO"
+        },
+        {
+            "id": "8",
+            "value": "ORDENADOR"
+        },
+        {
+            "id": "9",
+            "value": "AULAS"
+        },
+        {
+            "id": "10",
+            "value": "GIMNASIO"
+        },
+        {
+            "id": "11",
+            "value": "TECLADO"
+        },
+        {
+            "id": "12",
+            "value": "RATON"
+        },
+        {
+            "id": "13",
+            "value": "MONITOR"
+        },
+        {
+            "id": "14",
+            "value": "ANILLO"
+        },
+        {
+            "id": "15",
+            "value": "CABLE"
+        },
+        {
+            "id": "16",
+            "value": "BOTELLA"
+        },
+        {
+            "id": "17",
+            "value": "PLATO"
+        },
+        {
+            "id": "18",
+            "value": "BOTON"
+        },
+        {
+            "id": "19",
+            "value": "ENLACE"
+        },
+        {
+            "id": "20",
+            "value": "BECARIO"
+        },
+        {
+            "id": "21",
+            "value": "PROFESOR"
+        },
+        {
+            "id": "22",
+            "value": "JAVASCRIPT"
+        },
+        {
+            "id": "23",
+            "value": "SPRINGBOOT"
+        },
+        {
+            "id": "24",
+            "value": "ORACLE"
+        },
+        {
+            "id": "25",
+            "value": "GOOGLE"
+        }
+    ]
+}

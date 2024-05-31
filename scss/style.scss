@@ -1,0 +1,77 @@
+@import "mixins";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //border: 1px solid red;
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.titulo{
+    background-color: rgb(229, 227, 67);
+    padding: 20px;
+    border-bottom: 10px solid black;
+
+    h1{
+        padding: 20px 0;
+        text-align: center;
+    }
+}
+
+main{
+    padding: 20px;
+    font-size: 10px;
+    @include tablet{
+        font-size: 15px;
+    }
+
+    .palabrasBuscar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        p{
+            padding: 10px;
+            background-color: rgb(189, 255, 189);
+            border-radius: 5px;
+        }
+    }
+
+    .juegoContenedor{
+        display: flex;
+        flex-direction: column-reverse;
+        @include tablet{
+            flex-direction: row;
+        }
+        
+        #tablero{
+            td{
+                cursor: pointer;   
+                text-align: center; 
+            }
+        }
+        
+        .botones{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            @include tablet{
+                flex-direction: column;
+            }
+
+            button{
+                margin: 5px 10px;
+            }
+        }       
+        
+    }
+}
